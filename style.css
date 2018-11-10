@@ -1,1 +1,153 @@
-style.css
+body {
+	background-image: url(images/ville.jpg); 
+}
+
+h2 {
+  color: rgb(150, 180, 250);
+	font-size: 25px;
+	font-family: Helvetica;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+		font-family: Helvetica;
+}
+
+a {
+  color: rgb(180,255,255);
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+
+h3 {
+  color: white;
+	font-size: 20px;
+	font-family: Mali;
+}
+
+h1{
+  color: white;
+	font-size: 30px;
+	font-family: Helvetica;
+}
+
+h4{
+  color: black;
+	font-size: 25px;
+	font-family: Helvetica;
+}
+
+li {
+  color: black;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+.container{
+	
+	margin: 50px auto;
+}	
+
+
+@media (max-width: 3000px) {
+  
+  .container {
+    width: 1500px;
+  }
+}
+@media (max-width: 1500px) {
+  
+  .container {
+    width: 960px;
+  }
+}
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+.header{
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	box-shadow:0px 10px 30px;
+	border-radius: 5px;
+	margin: 100px auto;
+	border-radius: 10px
+}	
+.batterie{
+	background: rgba(0,0,20,0.7);
+	padding: 20px;
+	box-shadow:0px 10px 30px;
+	border-radius: 10px;
+	margin: 60px auto;
+}	
+
+.musique{
+	background: rgba(0,0,20,0.7);
+	padding: 20px;
+	box-shadow:0px 10px 30px;
+	border-radius: 10px;
+	margin:60px auto;
+}	
+
+.espace{
+	background: rgba(0,0,20,0.7);
+	padding: 20px;
+	box-shadow:0px 10px 30px;
+	border-radius: 10px;
+	margin: 60px auto;
+}	
+
+.voyages{
+	background: rgba(0,0,20,0.7);
+	padding: 20px;
+	box-shadow:0px 10px 30px;
+	border-radius: 10px;
+	margin: 60px auto;
+}	
+
+.reso{
+	background: rgba(255,255,255,0.5);
+	box-shadow:0px 10px 30px;
+	border-radius: 30px;
+	margin: 60px auto;
+	padding: 20px;
+}	
+
+
+.img-circle{
+border-radius: 50%;
+}
+
+.btn{
+background-color: rgba(255,170,70,0.5);
+color: black;
+padding: 20px 20px;
+text-align: center;
+box-shadow: 0px 10px 30px;
+margin: 30px 660px;
+border-radius: 5px;
+}
+
+.list{
+list-style: none;
+}
